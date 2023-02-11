@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #23252C;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    padding: 44px 117px;
+    
+}
+.header--img{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Css main */
+.main-container{
+    width: 100%;
+    height: 399px;
+    background-color: #1A1B21;
+    padding: 1.31em 2.125em 1.5em 2.25em;
+}
+.main--title{
+    margin-bottom: 0;
+    margin-top:0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.56rem;
+    line-height: 30px;
+}
+.main--subtitle{
+    color: #F3BF99;
+    text-align: center;
+    margin-top: 0.23em;
+    font-size: 0.81rem;
+    margin-bottom: 0;
+}
+.main--site{
+    font-size: 0.65rem;
+    text-align: center;
+    margin-top: 1.3em;
+    margin-bottom: 0;
+    
+}
+.main--email-btn
+{
+   
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+
+}
+.main--linkdln-btn{
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    color: #FFFFFF;
+    
+    
+}
+.main--linkdln-btn,.main--email-btn{
+    display: flex;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    
+}
+.main-btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.95em;
+    
+}
+.content-heading{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-bottom: 5px;
+}
+.content-body{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+.main--content-div{
+    margin-top: 33px;
+}
+
+/* footer css */
+.footer-container{
+    width: 100%;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 72px 0 73px;
+    gap: 24px;
+}
+
+.app-container{
+    margin: 0 auto;
+    width: 317px;
+}
